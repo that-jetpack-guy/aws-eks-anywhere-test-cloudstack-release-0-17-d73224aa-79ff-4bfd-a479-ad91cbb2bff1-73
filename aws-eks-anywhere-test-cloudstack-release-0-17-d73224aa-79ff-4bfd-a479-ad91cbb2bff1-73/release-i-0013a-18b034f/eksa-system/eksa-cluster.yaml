@@ -32,7 +32,7 @@ spec:
   gitOpsRef:
     kind: FluxConfig
     name: eksa-test
-  kubernetesVersion: "1.26"
+  kubernetesVersion: "1.27"
   managementCluster:
     name: release-i-0013a-18b034f
   workerNodeGroupConfigurations:
@@ -72,7 +72,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-26-eks-13-redhat
+    name: kubernetes-1-27-eks-7-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
@@ -89,7 +89,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-26-eks-13-redhat
+    name: kubernetes-1-27-eks-7-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
@@ -108,7 +108,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-26-eks-13-redhat
+    name: kubernetes-1-27-eks-7-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
